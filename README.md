@@ -4,6 +4,14 @@ Este projeto realiza testes automatizados para o endpoint `/breeds` da [Cat Fact
 
 ---
 
+**Estrutura do projeto**
+
+- src/main/java: código fonte principal, com pacotes de lógica, steps (passos do Cucumber) e utilitários.
+
+- src/test/java: classe de execução, runner do Cucumber.
+
+- src/test/resources: features do Cucumber e pasta para evidências (prints, reports).
+
 ## ✅ Tecnologias utilizadas
 
 - Java 11+
